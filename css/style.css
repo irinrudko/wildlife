@@ -637,23 +637,23 @@ img {
     opacity: 0.7;
 }
 
-.slider_link-left:hover {
+.slider_link-left:hover, .slider_link-right:hover {
     position: relative;
-	left: -3px;
 	transition: transform 0.3s ease;
     transform: scale(1.03);
 	vertical-align: middle;
     stroke: hsl(120, 84%, 23%);
 }
 
-.slider_link-right:hover {
-    position: relative;
-	right: -3px;
-	transition: transform 0.3s ease;
-    transform: scale(1.03);
-	vertical-align: middle;
-    stroke: hsl(120, 84%, 23%);
+.slider_link-left:hover {
+	left: -3px;
 }
+
+.slider_link-right:hover {
+	right: -3px;
+}
+
+
 /* articles styles end */
 
 /* get-notified styles start */
