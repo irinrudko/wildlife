@@ -505,6 +505,8 @@ body {
     background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
     padding-top: 199px;
+    padding-bottom: 120px;
+    /* margit-bottom – !!проверить с помощью PP*/
 }
 
 .intro__title {
@@ -553,7 +555,113 @@ body {
     border: 2px solid #8F5613;
 
 }
-
-
-
 /* survival styles end */
+
+/* articles styles start */
+.page-wrapper {
+    width: 100%;
+    background-color: #cccccc;
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.articles__wrap {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.articles__name {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.articles__title {
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;    
+    color: #333333;
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
+
+.articles__subtitle {
+    line-height: 36px;
+/* identical to box height, or 150% */
+    color: #666666;
+    margin-bottom: 120px;
+}
+
+.articles__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles__card {
+    position: relative;
+}
+
+.articles__card-title {
+    position: absolute;
+    bottom: 77px;
+    left: 124px;
+    font-size: 22px;
+    line-height: 36px;
+    /* line-height: 164%; */
+    /* identical to box height, or 164% */
+    color: var(--font-light);
+}
+
+.articles__card-caption {
+    /* position: absolute; */
+    font-size: 17px;
+    line-height: 27px;
+    /* bottom: -40px; */
+    color: var(--font-light);
+    text-align: center;
+    display: block;
+    transform: translateY(-40px);
+}
+
+.articles__card-pic {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    transition: .20s all;
+}
+
+.articles__card:hover .articles__card-pic {
+    transform: scale(1.03);
+}
+
+/* .slider_link-right {
+    display: inline-block;
+    width: 30px;
+    height: 70px;
+    /* padd-right: 60px; */
+    /* margin-bottom: 145px; */
+    /* background: url(../img/svg/arrow-left.svg) no-repeat 100%  center; */
+} */
+
+.slider_link-left {
+
+}
+
+/* .slider {
+    max-width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(../img/svg/arrow-right.svg) no-repeat 100%  center;
+} */
+
+
+/* articles styles end */
