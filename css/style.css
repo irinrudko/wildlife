@@ -477,18 +477,19 @@ img {
 }
 
 .header__button {
+    display: inline-block;
     width: 125px;
     height: 50px;
     padding: 2px 23px;
     background-color: transparent;
+    text-transform: none;
     border-radius: 5px;
     border: 0;
     border: 2px solid #CD6326;
     font-family: 'Roboto';
     font-size: 23px;
-    line-height: 27px;
-    /* line-height: 100%; */
-    text-transform: capitalize;
+    /* line-height: 27px; */
+    line-height: 100%;
     color: var(--font-light);
 }
 
@@ -496,6 +497,14 @@ img {
 .header__search:hover, .header__search:focus, .header__search:active {
     opacity: .75;
 }
+
+.header__button:hover, .header__button:focus, .header__button:active {
+    background-color: #CD6326;
+}
+
+
+
+
 /* header styles end */
 
 /* survival styles start */
