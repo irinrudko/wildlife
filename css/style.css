@@ -420,8 +420,6 @@ img {
 
 .header {
     position: fixed;
-    /* fixed – выпадает из потока и как бы не занимает пространство 
-    и если  fixed, то полностью заполнится фон */
     top: 0;
     left: 0;
     width: 100%;
@@ -470,7 +468,7 @@ img {
     margin-right: 0;
 }
 
-.header__link {
+.header__link, .header__search {
     font-size: 23px;
     line-height: 261%;
     color: var(--font-light);
@@ -494,7 +492,8 @@ img {
     color: var(--font-light);
 }
 
-.header__link:hover, .header__link:focus, .header__link:active {
+.header__link:hover, .header__link:focus, .header__link:active, 
+.header__search:hover, .header__search:focus, .header__search:active {
     opacity: .75;
 }
 /* header styles end */
