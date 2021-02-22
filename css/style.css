@@ -721,30 +721,100 @@ img {
 /* get-notified styles end */
 
 /* footer styles start */
-.grid {
-    grid-template-columns: 25% 50% 25%;
+.footer {
+    /* width: 100%; */
+    min-height: 360px;
+    background-color: #181617;
+    background: url(../img/footer-bg.jpg) no-repeat center;
+    background-size: cover;
 }
 
-.part-1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* align-items: center; */
-    justify-content: flex-end;
+.footer__wrapper-grid {
+    display: grid;
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-columns: 240px auto 240px;
+    align-items: center;
 }
 
-.part-2 {
+.footer__logo-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* align-items: center; */
-    justify-content: space-around;
-}
-.part-3 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* align-items: center; */
     justify-content: flex-start;
+}
+
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 86px;
+    justify-content: space-evenly;
+}
+
+
+/* .footer__list:last-child {
+    padding-right: 120px;
+}
+
+.footer__list:first-child {
+    padding-left: 120px;
+}  */
+
+.footer__contacts {
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; */
+    justify-content: space-between;
+}
+
+.footer__link {
+    font-size: 23px;
+    /* line-height: 60px; */
+    line-height: 261%;
+    color: var(--font-light);
+    text-decoration: none;
+}
+
+.footer__link:hover, .footer__link:focus, .footer__link:active {
+    opacity: .75;
+}
+
+.footer__contacts-links {
+    /* padding-left: 120px; */
+    height: 359px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__contacts-link {
+    min-height: 360px;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    /* display: flex;
+    justify-content: space-around; */
+    /* justify-items: start; */
+}
+
+.facebook {
+    background: url("../img/svg/facebook-ico.svg") no-repeat center;
+}
+
+.instagram {
+    background: url("../img/svg/instagram-ico.svg") no-repeat center;
+}
+
+.telegram {
+    background: url("../img/svg/telegram-ico.svg") no-repeat center;
+}
+
+.pinterest {
+    background: url("../img/svg/pinterest-ico.svg") no-repeat center;
 }
 /* footer styles end */
