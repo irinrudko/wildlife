@@ -501,10 +501,6 @@ img {
 .header__button:hover, .header__button:focus, .header__button:active {
     background-color: #CD6326;
 }
-
-
-
-
 /* header styles end */
 
 /* survival styles start */
@@ -551,7 +547,7 @@ img {
     color: var(--font-light);
 }
 
-.intro__button:hover, .intro__button:focus {
+.intro__button:hover, .intro__button:focus  {
     background-color: #E39128;
     border: 2px solid #E39128;
     cursor: default;
@@ -560,7 +556,6 @@ img {
 .intro__button:active {
     background-color: #8F5613;
     border: 2px solid #8F5613;
-
 }
 /* survival styles end */
 
@@ -650,15 +645,15 @@ img {
 	transition: transform 0.3s ease;
     transform: scale(1.03);
 	vertical-align: middle;
-    stroke: hsl(120, 84%, 23%);
-    fill-rule: evenodd;
-    fill: #d9dbd1;
+    stroke: hsl(120, 29%, 50%);
+}
+
+svg:hover path:nth-child(1) {
+    fill: hsl(120, 35%, 33%);
 }
 
 .slider_link-left:hover {
 	left: -3px;
-    fill-rule: evenodd;
-     fill: #d9dbd1;
 }
 
 .slider_link-right:hover {
