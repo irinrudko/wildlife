@@ -421,7 +421,7 @@ img {
 .header {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0; 
     width: 100%;
     z-index: 2;
 }
@@ -494,7 +494,6 @@ img {
     border: 2px solid #CD6326;
     font-family: 'Roboto';
     font-size: 23px;
-    /* line-height: 27px; */
     line-height: 100%;
     color: var(--font-light);
 }
@@ -511,13 +510,18 @@ img {
 
 /* survival styles start */
 .intro {
-    min-height: 100vh;
+        padding-top: 199px;
+    padding-bottom: 120px;
+}
+
+.background {
+    /* min-height: 100vh; */
+    height: 780px;
     background-color: #02160b;
     background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
-    padding-top: 199px;
-    padding-bottom: 120px;
 }
+
 
 .intro__title {
     max-width: 199px;
@@ -702,14 +706,12 @@ svg:hover path:nth-child(1) {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .get-notified__title {
     font-size: 27px;
-    line-height: 40px;
+    line-height: 150%;
     margin-bottom: 59px;
-    /* line-height: 100%; */
 }
 
 .search-form__info {
@@ -738,7 +740,6 @@ svg:hover path:nth-child(1) {
     font-size: 23px;
     line-height: 27px;
     color: #666666;
-    /* padding-left: 15px; */
 }
 
 .search-form__submit {
