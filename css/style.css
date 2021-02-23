@@ -834,5 +834,16 @@ svg:hover path:nth-child(1) {
 
 .pinterest {
     background: url("../img/svg/pinterest-ico.svg") no-repeat center;
+    fill: red;
 }
+
+.pinterest:hover, .pinterest:focus, .pinterest:active,
+.telegram:hover, .telegram:focus, .telegram:active, 
+.instagram:hover, .instagram:focus, .instagram:active,
+.facebook:hover, .facebook:focus, .facebook:active {
+    fill: red;
+    opacity: .7;
+}
+
+
 /* footer styles end */
