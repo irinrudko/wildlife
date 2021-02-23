@@ -474,6 +474,8 @@ img {
     color: var(--font-light);
     text-decoration: none;
     text-transform: capitalize;
+    padding-left: 4px;
+
 }
 
 .header__search-ico:hover path:nth-child(1) {
@@ -522,7 +524,10 @@ img {
     font-size: 48px;
     line-height: 150%;
     color: #CD6326;
-    margin-bottom: 51px;
+    margin-bottom: 48px;
+    padding-top: 1px;
+
+    /* margin-bottom: 90px; */
     letter-spacing: 2px;
 }
 
@@ -545,8 +550,8 @@ img {
     border: 2px solid #CD6326;
     font-family: 'Roboto';
     font-size: 23px;
-    line-height: 27px;
-    /* line-height: 100%; */
+    /* line-height: 27px; */
+    line-height: 100%;
     text-transform: capitalize;
     color: var(--font-light);
 }
@@ -579,13 +584,11 @@ img {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .articles__title {
     font-size: 48px;
-    line-height: 72px;
-    /* line-height: 150%; */
+    line-height: 150%;
     text-align: center;    
     color: #333333;
     padding-top: 120px;
@@ -593,10 +596,11 @@ img {
 }
 
 .articles__subtitle {
-    line-height: 36px;
-    /* line-height: 150%; */
+    font-size: 24px;
+    line-height: 150%;
     color: #666666;
-    margin-bottom: 120px;
+    margin-bottom: 119px;
+    color: #666666;
 }
 
 .articles__cards {
@@ -613,23 +617,50 @@ img {
 
 .articles__card-title {
     position: absolute;
-    bottom: 77px;
-    left: 124px;
     font-size: 22px;
-    line-height: 36px;
-    /* line-height: 164%; */
+    line-height: 164%;
     color: var(--font-light);
 }
 
 .articles__card-caption {
-    /* position: absolute; */
+    position: absolute;
     font-size: 17px;
     line-height: 27px;
-    /* bottom: -40px; */
     color: var(--font-light);
     text-align: center;
     display: block;
     transform: translateY(-40px);
+    letter-spacing: 0px;
+}
+
+.deer-title {
+    bottom: 76px;
+    left: 128px;
+}
+
+.deer-caption {
+    left: 61px;
+    bottom: -1px;
+}
+
+.squirrel-title {
+    bottom: 76px;
+    left: 112px;
+}
+
+.squirrel-caption {
+    left: 78px;
+    bottom: -1px;
+}
+
+.bird-title {
+    bottom: 76px;
+    left: 130px;
+}
+
+.bird-caption {
+    left: 91px;
+    bottom: -1px;
 }
 
 .articles__card-pic {
@@ -834,7 +865,6 @@ svg:hover path:nth-child(1) {
 
 .pinterest {
     background: url("../img/svg/pinterest-ico.svg") no-repeat center;
-    fill: red;
 }
 
 .pinterest:hover, .pinterest:focus, .pinterest:active,
@@ -844,6 +874,4 @@ svg:hover path:nth-child(1) {
     fill: red;
     opacity: .7;
 }
-
-
 /* footer styles end */
