@@ -475,7 +475,6 @@ img {
     text-decoration: none;
     text-transform: capitalize;
     padding-left: 4px;
-
 }
 
 .header__search-ico:hover path:nth-child(1) {
@@ -510,7 +509,7 @@ img {
 
 /* survival styles start */
 .intro {
-        padding-top: 199px;
+    padding-top: 199px;
     padding-bottom: 120px;
 }
 
@@ -530,8 +529,6 @@ img {
     color: #CD6326;
     margin-bottom: 48px;
     padding-top: 1px;
-
-    /* margin-bottom: 90px; */
     letter-spacing: 2px;
 }
 
@@ -554,7 +551,6 @@ img {
     border: 2px solid #CD6326;
     font-family: 'Roboto';
     font-size: 23px;
-    /* line-height: 27px; */
     line-height: 100%;
     text-transform: capitalize;
     color: var(--font-light);
@@ -772,7 +768,6 @@ svg:hover path:nth-child(1) {
 
 /* footer styles start */
 .footer {
-    /* width: 100%; */
     min-height: 360px;
     background-color: #181617;
     background: url(../img/footer-bg.jpg) no-repeat center;
@@ -782,7 +777,6 @@ svg:hover path:nth-child(1) {
 .footer__wrapper-grid {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    /* grid-template-columns: 240px auto 240px; */
     align-items: center;
 }
 
@@ -800,43 +794,15 @@ svg:hover path:nth-child(1) {
 }
 
 .footer__list {
-    display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    grid-column: auto;
     column-gap: 85px;
-    justify-content: space-evenly;
-    padding-left: 120px;
-    padding-right: 120px;
-    font-size: 23px;
-}
-
-.footer__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0 120px;
-    font-size: 23px;
-}
-
-
-/* .footer__list:last-child {
-    padding-right: 120px;
-}
-
-.footer__list:first-child {
-    padding-left: 120px;
-}  */
-
-.footer__contacts {
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: row; */
-    justify-content: space-between;
 }
 
 .footer__link {
     font-size: 23px;
-    /* line-height: 60px; */
     line-height: 261%;
     color: var(--font-light);
     text-decoration: none;
@@ -847,7 +813,6 @@ svg:hover path:nth-child(1) {
 }
 
 .footer__contacts-links {
-    /* padding-left: 120px; */
     height: 359px;
     display: flex;
     flex-wrap: wrap;
@@ -859,9 +824,6 @@ svg:hover path:nth-child(1) {
     background-size: cover;
     width: 40px;
     height: 40px;
-    /* display: flex;
-    justify-content: space-around; */
-    /* justify-items: start; */
 }
 
 .facebook {
