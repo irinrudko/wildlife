@@ -479,6 +479,7 @@ img {
 
 .header__search-ico:hover path:nth-child(1) {
     fill: #CD6326;
+    cursor: pointer;
 }
 
 .header__button {
