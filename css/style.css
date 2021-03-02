@@ -781,8 +781,8 @@ svg:hover path:nth-child(1) {
 
 .footer__wrapper-grid {
     display: grid;
-    /* grid-template-columns: 1fr 2fr 1fr; */
-    grid-template-columns: 240px auto 240px;
+    grid-template-columns: 1fr 3fr 1fr;
+    /* grid-template-columns: 240px auto 240px; */
     align-items: center;
 }
 
@@ -801,9 +801,21 @@ svg:hover path:nth-child(1) {
 
 .footer__list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 86px;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-column: auto;
+    column-gap: 85px;
     justify-content: space-evenly;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 23px;
+}
+
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 120px;
+    font-size: 23px;
 }
 
 
